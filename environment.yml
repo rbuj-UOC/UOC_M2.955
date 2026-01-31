@@ -1,0 +1,32 @@
+name: uoc-vscode
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  
+  # Data Science & Numerical Computing
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Deep Learning
+  - tensorflow
+  - keras
+  
+  # Utilities
+  - pip
+  - python=3.11

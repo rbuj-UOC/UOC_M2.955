@@ -1,0 +1,12 @@
+{
+    "cSpell.language": "ca,en",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "bounded"
+}
